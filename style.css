@@ -128,6 +128,13 @@ nav a:hover {
 .product-img {
     height: 250px;
     width: 100%;
+    overflow: hidden;
+}
+
+.product-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 .product-info {
